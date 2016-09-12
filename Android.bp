@@ -215,6 +215,7 @@ RES_DIRS = [
     "java/com/android/dialer/util/res",
     "java/com/android/dialer/callrecord/res",
     "java/com/android/dialer/callstats/res",
+    "java/com/android/dialer/lookup/res/",
     "java/com/android/dialer/voicemail/listui/error/res",
     "java/com/android/dialer/voicemail/listui/res",
     "java/com/android/dialer/voicemail/settings/res",
