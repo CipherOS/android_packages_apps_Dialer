@@ -213,6 +213,7 @@ RES_DIRS = [
     "java/com/android/dialer/theme/hidden/res",
     "java/com/android/dialer/theme/res",
     "java/com/android/dialer/util/res",
+    "java/com/android/dialer/callrecord/res",
     "java/com/android/dialer/voicemail/listui/error/res",
     "java/com/android/dialer/voicemail/listui/res",
     "java/com/android/dialer/voicemail/settings/res",
@@ -312,6 +313,7 @@ android_app {
         "libphonenumber",
         "volley",
         "zxing-core-1.7",
+    	"org.lineageos.lib.phone"
     ],
     libs: [
         "auto_value_annotations",
@@ -339,6 +341,7 @@ android_app {
     product_specific: true,
     required: [
         "privapp_whitelist_com.android.dialer",
+        "privapp_whitelist_com.android.dialer-ext.xml",
     ],
     uses_libs: ["org.apache.http.legacy"],
 }
@@ -369,4 +372,12 @@ java_plugin {
     static_libs: ["dialer-rootcomponentprocessor"],
     processor_class: "com.android.dialer.rootcomponentgenerator.RootComponentProcessor",
     visibility: ["//packages/apps/Dialer"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.android.dialer-ext.xml",
+    filename: "privapp_whitelist_com.android.dialer-ext.xml",
+    src: "privapp_whitelist_com.android.dialer-ext.xml",
+    sub_dir: "permissions",
+    product_specific: true,
 }
