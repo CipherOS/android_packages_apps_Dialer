@@ -15,7 +15,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   coreApp="true"
-  package="com.android.dialer"
+  package="com.cipheros.dialer"
   android:versionCode="2900000"
   android:versionName="23.0">
 
@@ -81,9 +81,9 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
   <!-- Used for sending PendingIntents to dynamically registered receivers -->
-  <permission android:name="com.android.dialer.permission.DIALER_ORIGIN"
+  <permission android:name="com.cipheros.dialer.permission.DIALER_ORIGIN"
     android:protectionLevel="signature" />
-  <uses-permission android:name="com.android.dialer.permission.DIALER_ORIGIN"/>
+  <uses-permission android:name="com.cipheros.dialer.permission.DIALER_ORIGIN"/>
 
   <!-- Permissions needed for badger count showing on launch icon. -->
 
@@ -121,7 +121,7 @@
     android:hardwareAccelerated="true"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/applicationLabel"
-    android:name="com.android.dialer.binary.aosp.AospDialerApplication"
+    android:name="com.cipheros.dialer.binary.aosp.AospDialerApplication"
     android:appCategory="social"
     android:supportsRtl="true"
     android:usesCleartextTraffic="false"

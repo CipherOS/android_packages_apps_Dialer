@@ -87,8 +87,8 @@ LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(RES_DIRS))
 
 EXCLUDE_EXTRA_PACKAGES := \
-	com.android.dialer.binary.aosp.testing \
-	com.android.dialer.binary.google \
+	com.cipheros.dialer.binary.aosp.testing \
+	com.cipheros.dialer.binary.google \
 	com.android.incallui.calllocation.impl \
 	com.android.incallui.maps.impl \
 
@@ -137,7 +137,7 @@ LOCAL_ANNOTATION_PROCESSORS := \
 	dialer-rootcomponentprocessor
 
 LOCAL_ANNOTATION_PROCESSOR_CLASSES := \
-  com.google.auto.value.processor.AutoValueProcessor,dagger.internal.codegen.ComponentProcessor,com.bumptech.glide.annotation.compiler.GlideAnnotationProcessor,com.android.dialer.rootcomponentgenerator.RootComponentProcessor
+  com.google.auto.value.processor.AutoValueProcessor,dagger.internal.codegen.ComponentProcessor,com.bumptech.glide.annotation.compiler.GlideAnnotationProcessor,com.cipheros.dialer.rootcomponentgenerator.RootComponentProcessor
 
 # Proguard includes
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags $(call all-named-files-under,proguard.*flags,$(BASE_DIR))
@@ -152,8 +152,8 @@ LOCAL_CERTIFICATE := shared
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_USE_AAPT2 := true
-LOCAL_REQUIRED_MODULES := privapp_whitelist_com.android.dialer
-LOCAL_REQUIRED_MODULES += privapp_whitelist_com.android.dialer-ext.xml
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.cipheros.dialer
+LOCAL_REQUIRED_MODULES += privapp_whitelist_com.cipheros.dialer-ext.xml
 LOCAL_USES_LIBRARIES := org.apache.http.legacy
 
 LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
@@ -162,7 +162,7 @@ LOCAL_NOTICE_FILE := $(LOCAL_PATH)/LICENSE
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := privapp_whitelist_com.android.dialer-ext.xml
+LOCAL_MODULE := privapp_whitelist_com.cipheros.dialer-ext.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT_ETC)/permissions

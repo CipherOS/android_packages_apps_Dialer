@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.cipheros.dialer.interactions">
+
+  <application>
+
+    <!-- Service to update a contact -->
+    <service
+      android:exported="false"
+      android:name="com.cipheros.dialer.interactions.ContactUpdateService"/>
+
+    <receiver android:name="com.cipheros.dialer.interactions.UndemoteOutgoingCallReceiver"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+      </intent-filter>
+    </receiver>
+
+  </application>
+
+</manifest>
+
