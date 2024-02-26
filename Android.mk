@@ -13,7 +13,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 # The base directory for Dialer sources.
-BASE_DIR := java/com/android
+BASE_DIR := java/com/cipher
 
 # Exclude files incompatible with AOSP.
 EXCLUDE_FILES := \
@@ -49,12 +49,12 @@ EXCLUDE_FILES += \
 	$(BASE_DIR)/dialer/binary/google/GoogleStubDialerApplication.java \
 
 # * b/62875795
-ifneq ($(wildcard packages/apps/Dialer/java/com/android/voicemail/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java),)
-$(error Please remove file packages/apps/Dialer/java/com/android/voicemail/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java )
+ifneq ($(wildcard packages/apps/Dialer/java/com/cipheros/voicemail/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java),)
+$(error Please remove file packages/apps/Dialer/java/com/android/cipheros/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java )
 endif
 
 EXCLUDE_RESOURCE_DIRECTORIES := \
-	java/com/android/incallui/maps/impl/res \
+	java/com/cipher/incallui/maps/impl/res \
 
 # All Dialers resources.
 RES_DIRS := $(call all-subdir-named-dirs,res,.)
@@ -89,8 +89,8 @@ LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(RES_DIRS))
 EXCLUDE_EXTRA_PACKAGES := \
 	com.cipheros.dialer.binary.aosp.testing \
 	com.cipheros.dialer.binary.google \
-	com.android.incallui.calllocation.impl \
-	com.android.incallui.maps.impl \
+	com.cipheros.incallui.calllocation.impl \
+	com.cipheros.incallui.maps.impl \
 
 # We specify each package explicitly to glob resource files.
 include ${LOCAL_PATH}/packages.mk

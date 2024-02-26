@@ -1,9 +1,9 @@
 # Update this when adding a new AndroidManifest.xml.
 LOCAL_AAPT_FLAGS := \
-	com.android.assets.product \
-	com.android.assets.quantum \
-	com.android.bubble \
-	com.android.contacts.common \
+	com.cipheros.assets.product \
+	com.cipheros.assets.quantum \
+	com.cipheros.bubble \
+	com.cipheros.contacts.common \
 	com.cipheros.dialer.about \
 	com.cipheros.dialer.app \
 	com.cipheros.dialer.app.manifests.activities \
@@ -40,7 +40,7 @@ LOCAL_AAPT_FLAGS := \
 	com.cipheros.dialer.enrichedcall.simulator \
 	com.cipheros.dialer.feedback \
 	com.cipheros.dialer.glidephotomanager.impl \
-  com.cipheros.dialer.historyitemactions \
+        com.cipheros.dialer.historyitemactions \
 	com.cipheros.dialer.interactions \
 	com.cipheros.dialer.lettertile \
 	com.cipheros.dialer.location \
@@ -82,30 +82,30 @@ LOCAL_AAPT_FLAGS := \
 	com.cipheros.dialer.voicemail.settings \
 	com.cipheros.dialer.voicemailstatus \
 	com.cipheros.dialer.widget \
-	com.android.incallui \
-	com.android.incallui.answer.impl.affordance \
-	com.android.incallui.answer.impl \
-	com.android.incallui.answer.impl.answermethod \
-	com.android.incallui.answer.impl.hint \
-	com.android.incallui.audioroute \
-	com.android.incallui.autoresizetext \
-	com.android.incallui.calllocation.impl \
-	com.android.incallui.callpending \
-	com.android.incallui.commontheme \
-	com.android.incallui.contactgrid \
-	com.android.incallui.disconnectdialog \
-	com.android.incallui.hold \
-	com.android.incallui.incall.impl \
-	com.android.incallui.rtt.impl \
-	com.android.incallui.rtt.protocol \
-  com.android.incallui.speakeasy \
-	com.android.incallui.sessiondata \
-	com.android.incallui.spam \
-	com.android.incallui.speakerbuttonlogic \
-	com.android.incallui.telecomeventui \
-	com.android.incallui.video.impl \
-	com.android.incallui.video.protocol \
-	com.android.phoneapphelper \
-	com.android.voicemail \
-	com.android.voicemail.impl \
-	com.android.voicemail.impl.configui \
+	com.cipheros.incallui \
+	com.cipheros.incallui.answer.impl.affordance \
+	com.cipheros.incallui.answer.impl \
+	com.cipheros.incallui.answer.impl.answermethod \
+	com.cipheros.incallui.answer.impl.hint \
+	com.cipheros.incallui.audioroute \
+	com.cipheros.incallui.autoresizetext \
+	com.cipheros.incallui.calllocation.impl \
+	com.cipheros.incallui.callpending \
+	com.cipheros.incallui.commontheme \
+	com.cipheros.incallui.contactgrid \
+	com.cipheros.incallui.disconnectdialog \
+	com.cipheros.incallui.hold \
+	com.cipheros.incallui.incall.impl \
+	com.cipheros.incallui.rtt.impl \
+	com.cipheros.incallui.rtt.protocol \
+        com.cipheros.incallui.speakeasy \
+	com.cipheros.incallui.sessiondata \
+	com.cipheros.incallui.spam \
+	com.cipheros.incallui.speakerbuttonlogic \
+	com.cipheros.incallui.telecomeventui \
+	com.cipheros.incallui.video.impl \
+	com.cipheros.incallui.video.protocol \
+	com.cipheros.phoneapphelper \
+	com.cipheros.voicemail \
+	com.cipheros.voicemail.impl \
+	com.cipheros.voicemail.impl.configui \
