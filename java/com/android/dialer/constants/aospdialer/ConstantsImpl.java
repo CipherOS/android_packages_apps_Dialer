@@ -33,7 +33,7 @@ public class ConstantsImpl extends Constants {
   @Override
   @NonNull
   public String getFileProviderAuthority() {
-    return "com.android.dialer.files";
+    return "com.cipheros.dialer.files";
   }
 
   @NonNull
