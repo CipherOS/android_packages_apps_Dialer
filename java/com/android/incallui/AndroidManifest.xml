@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.incallui">
+    package="com.cipheros.incallui">
 
   <uses-sdk
       android:minSdkVersion="24"
@@ -68,7 +68,7 @@
         android:name="com.android.incallui.InCallActivity"
         android:resizeableActivity="true"
         android:screenOrientation="nosensor"
-        android:taskAffinity="com.android.incallui"
+        android:taskAffinity="com.cipheros.incallui"
         android:theme="@style/Theme.InCallScreen"
         android:windowSoftInputMode="adjustResize">
     </activity>
@@ -82,7 +82,7 @@
         android:name="com.android.incallui.ManageConferenceActivity"
         android:noHistory="true"
         android:resizeableActivity="true"
-        android:taskAffinity="com.android.incallui"
+        android:taskAffinity="com.cipheros.incallui"
         android:theme="@style/Theme.InCallScreen.ManageConference"/>
 
     <service

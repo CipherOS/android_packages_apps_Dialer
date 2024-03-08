@@ -27,7 +27,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.app.DialtactsActivity;
 import com.android.dialer.app.contactinfo.ContactInfoCache;
 import com.android.dialer.app.contactinfo.NumberWithCountryIso;

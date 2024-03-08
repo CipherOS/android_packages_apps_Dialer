@@ -41,7 +41,7 @@ import android.util.Log;
 import com.android.dialer.searchfragment.common.Projections;
 import com.android.dialer.phonenumbercache.ContactInfo;
 import com.android.dialer.util.PermissionsUtil;
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

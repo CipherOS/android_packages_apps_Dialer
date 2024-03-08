@@ -23,7 +23,7 @@ import android.preference.ListPreference;
 import android.preference.PreferenceFragment;
 import android.preference.SwitchPreference;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 
 import java.util.Arrays;
 

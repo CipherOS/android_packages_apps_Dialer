@@ -29,7 +29,7 @@ import com.android.dialer.interactions.PhoneNumberInteraction.InteractionErrorCo
 import com.android.dialer.interactions.PhoneNumberInteraction.InteractionErrorListener;
 import com.android.dialer.main.MainActivityPeer;
 import com.android.dialer.main.impl.bottomnav.BottomNavBar.TabIndex;
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.util.TransactionSafeActivity;
 
 /** This is the main activity for dialer. It hosts favorites, call log, search, dialpad, etc... */

@@ -40,7 +40,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 
 public class CallRecorderService extends Service {
   private static final String TAG = "CallRecorderService";

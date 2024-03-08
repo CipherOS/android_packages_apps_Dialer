@@ -144,7 +144,7 @@
     </receiver>
 
     <provider
-      android:authorities="com.android.dialer.files"
+      android:authorities="com.cipheros.dialer.files"
       android:exported="false"
       android:grantUriPermissions="true"
       android:name="android.support.v4.content.FileProvider">
