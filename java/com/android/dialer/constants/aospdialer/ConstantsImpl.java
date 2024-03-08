@@ -27,7 +27,7 @@ public class ConstantsImpl extends Constants {
   @Override
   @NonNull
   public String getFilteredNumberProviderAuthority() {
-    return "com.android.dialer.blocking.filterednumberprovider";
+    return "com.cipheros.dialer.blocking.filterednumberprovider";
   }
 
   @Override
@@ -39,19 +39,19 @@ public class ConstantsImpl extends Constants {
   @NonNull
   @Override
   public String getAnnotatedCallLogProviderAuthority() {
-    return "com.android.dialer.annotatedcalllog";
+    return "com.cipheros.dialer.annotatedcalllog";
   }
 
   @NonNull
   @Override
   public String getPhoneLookupHistoryProviderAuthority() {
-    return "com.android.dialer.phonelookuphistory";
+    return "com.cipheros.dialer.phonelookuphistory";
   }
 
   @NonNull
   @Override
   public String getPreferredSimFallbackProviderAuthority() {
-    return "com.android.dialer.preferredsimfallback";
+    return "com.cipheros.dialer.preferredsimfallback";
   }
 
   @Override
