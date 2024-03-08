@@ -40,7 +40,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 
-import com.android.incallui.InCallActivity;
+import com.cipheros.incallui.InCallActivity;
 import com.android.incallui.call.state.DialerCallState;
 import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.util.Log;

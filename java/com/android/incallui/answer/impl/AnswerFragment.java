@@ -68,7 +68,7 @@ import com.android.dialer.logging.Logger;
 import com.android.dialer.multimedia.MultimediaData;
 import com.android.dialer.telecom.TelecomUtil;
 import com.android.dialer.util.ViewUtil;
-import com.android.incallui.InCallActivity;
+import com.cipheros.incallui.InCallActivity;
 import com.android.incallui.answer.impl.CreateCustomSmsDialogFragment.CreateCustomSmsHolder;
 import com.android.incallui.answer.impl.SmsBottomSheetFragment.SmsSheetHolder;
 import com.android.incallui.answer.impl.affordance.SwipeButtonHelper.Callback;
