@@ -15,7 +15,7 @@
  */
 
 package com.android.incallui;
-
+import com.cipheros.incallui.InCallActivity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.SharedPreferences;

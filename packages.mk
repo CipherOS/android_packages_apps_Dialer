@@ -109,3 +109,5 @@ LOCAL_AAPT_FLAGS := \
 	com.android.voicemail \
 	com.android.voicemail.impl \
 	com.android.voicemail.impl.configui \
+        com.cipheros.incallui \
+        com.cipheros.incallui.InCallActivity
