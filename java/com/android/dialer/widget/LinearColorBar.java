@@ -29,7 +29,7 @@ import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.widget.LinearLayout;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 
 public class LinearColorBar extends LinearLayout {
   private float mFirstRatio;

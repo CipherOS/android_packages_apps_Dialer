@@ -40,7 +40,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.app.contactinfo.ExpirableCacheHeadlessFragment;
 import com.android.dialer.calllogutils.FilterSpinnerHelper;
 import com.android.dialer.contacts.ContactsComponent;

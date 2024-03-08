@@ -40,7 +40,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 
 /**
  * Alertdialog with two date pickers - one for a start and one for an end date.

@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.QuickContactBadge;
 import android.widget.TextView;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.app.AccountSelectionActivity;
 import com.android.dialer.callintent.CallInitiationType;
 import com.android.dialer.callintent.CallIntentBuilder;

@@ -26,7 +26,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.util.PermissionsUtil;
 import java.util.ArrayList;
 import java.util.List;

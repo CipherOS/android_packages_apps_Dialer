@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.QuickContactBadge;
 import android.widget.TextView;
 
-import com.android.dialer.R;
+import com.cipheros.dialer.R;
 import com.android.dialer.contactphoto.ContactPhotoManager;
 import com.android.dialer.contacts.displaypreference.ContactDisplayPreferences;
 import com.android.dialer.lettertile.LetterTileDrawable;
