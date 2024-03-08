@@ -14,13 +14,13 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.android.dialer">
+  package="com.cipheros.dialer">
 
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
   <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
 
   <application>
     <service android:name="com.android.dialer.callrecord.impl.CallRecorderService"
-        android:process="com.android.incallui" />
+        android:process="com.cipheros.incallui" />
   </application>
 </manifest>
