@@ -27,7 +27,7 @@ import com.android.incallui.call.DialerCall;
 import com.android.incallui.call.DialerCallListener;
 import com.android.incallui.call.state.DialerCallState;
 
-import com.cipheros.incallui.R;
+import com.android.incallui.R;
 
 /**
  * This class prevents users from accidentally answering calls by keeping the screen off until the
