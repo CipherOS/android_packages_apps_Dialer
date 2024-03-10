@@ -14,7 +14,7 @@ include $(CLEAR_VARS)
 
 # The base directory for Dialer sources.
 BASE_DIR := java/com/android
-
+LOCAL_DEX_PREOPT := false
 # Exclude files incompatible with AOSP.
 EXCLUDE_FILES := \
 	$(BASE_DIR)/incallui/calllocation/impl/AuthException.java \
